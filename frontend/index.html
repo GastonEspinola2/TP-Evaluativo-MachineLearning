@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Predicción de Vino Tinto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Ingresá los datos del vino</h2>
+      <form id="formulario">
+        <input name="fixed_acidity" placeholder="Acidez fija" required />
+        <input name="volatile_acidity" placeholder="Acidez volátil" required />
+        <input name="citric_acid" placeholder="Ácido cítrico" required />
+        <input name="residual_sugar" placeholder="Azúcar residual" required />
+        <input name="chlorides" placeholder="Cloruros" required />
+        <input name="free_sulfur_dioxide" placeholder="SO₂ libre" required />
+        <input name="total_sulfur_dioxide" placeholder="SO₂ total" required />
+        <input name="density" placeholder="Densidad" required />
+        <input name="pH" placeholder="pH" required />
+        <input name="sulphates" placeholder="Sulfatos" required />
+        <input name="alcohol" placeholder="Alcohol" required />
+        <button type="submit">Predecir</button>
+      </form>
+      <h3 id="resultado"></h3>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
